@@ -10,7 +10,7 @@ man_path_base   = @man_path_base@
 log_path_base   = @log_path_base@
 trc_path_base   = @trc_path_base@
 
-CC = gcc
+CC = @CC@
 
 CFLAGS=@CFLAGS@ -I . @EXTRA_CFLAGS@ 
 
