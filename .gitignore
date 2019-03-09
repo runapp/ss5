@@ -1,3 +1,8 @@
 Makefile
 config.log
 config.status
+*.o
+*.so
+modules/*/*.cgi
+src/ss5
+src/ss5srv

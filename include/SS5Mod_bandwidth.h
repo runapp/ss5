@@ -31,7 +31,7 @@
 /*
  * Slave functions: manage bandwidth table feature
  */
-inline UINT
+extern inline UINT
   S5BandTableHash(      char *u
 );
 

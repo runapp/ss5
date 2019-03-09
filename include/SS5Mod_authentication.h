@@ -67,7 +67,7 @@ INT
 /*
  * Slave functions: manage authentication cache feature
  */
-inline UINT
+extern inline UINT
   S5AuthCacheHash(	char *u,
 			char *p
 );

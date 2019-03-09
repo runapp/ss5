@@ -103,7 +103,7 @@ UINT
 			struct _SS5RequestInfo *ri
 );
 
-inline UINT
+extern inline UINT
   S5IfMatch(		char ip[16]
 );
 

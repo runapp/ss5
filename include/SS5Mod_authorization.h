@@ -152,7 +152,7 @@ ULINT
 /*
  * Look for username into group file or group into directory
  */
-inline UINT
+extern inline UINT
   FileCheck(		char *group,
 			char *user
 );
@@ -160,7 +160,7 @@ inline UINT
 /*
  * Slave functions: manage authorization cache feature
  */
-inline UINT
+extern inline UINT
   S5AuthoCacheHash(     char *sa,
                         char *da,
                         UINT dp,

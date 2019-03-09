@@ -54,7 +54,7 @@ UINT
   CloseDump( 		FILE *df
 );
 
-inline UINT
+extern inline UINT
   S5DumpHash(           ULINT da,
                         UINT dp
 );

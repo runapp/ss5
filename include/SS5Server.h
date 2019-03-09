@@ -31,7 +31,7 @@ UINT
   S5ServerClose(	int exitcode
 );
 
-inline UINT
+extern inline UINT
   S5ChildClose(		int exitcode,
                         UINT childSocket,
 			struct _SS5ClientInfo *ci

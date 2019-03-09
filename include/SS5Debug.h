@@ -19,37 +19,37 @@
 #ifndef SS5DEBUG_H
 #define SS5DEBUG_H 1
 
-inline void
+extern inline void
   S5DebugMethodInfo( 	pid_t pid,
                         struct _SS5ClientInfo ci
 );
 
-inline void
+extern inline void
   S5DebugAuthInfo(	pid_t pid,
                         struct _SS5ClientInfo ci
 );
 
-inline void
+extern inline void
   S5DebugRequestInfo( 	pid_t pid,
                         struct _SS5RequestInfo ri
 );
 
-inline void
+extern inline void
  S5DebugUdpRequestInfo( pid_t pid,
                         struct _SS5RequestInfo ri
 );
 
-inline void
+extern inline void
   S5DebugUpstreamInfo(	pid_t pid,
                         struct _SS5RequestInfo ri
 );
 
-inline void
+extern inline void
   S5DebugFacilities( 	pid_t pid,
                         struct _SS5Facilities fa
 );
 
-inline void
+extern inline void
   S5DebugStatistics( 	pid_t pid
 );
 

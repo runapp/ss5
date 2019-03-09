@@ -73,7 +73,7 @@ UINT
 				UINT index
 );
 
-inline UINT
+extern inline UINT
   S5StickyHash(			ULINT srcip
 );
 
